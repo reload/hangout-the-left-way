@@ -1,0 +1,15 @@
+{
+
+  "description": "Moves the chat window to the left.",
+  "manifest_version": 2,
+  "name": "hangout-the-left-way",
+  "version": "0.1",
+  "homepage_url": "https://github.com/reload/hangout-the-left-way",
+  "content_scripts": [
+    {
+      "matches": ["*://*.meet.google.com/*"],
+      "css": ["style.css"]
+    }
+  ]
+
+}
